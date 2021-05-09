@@ -6,7 +6,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! It's {0}", DateTime.Now.ToString());
+            Console.WriteLine("Hello World! It's {0}", DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"));
         }
     }
 }
